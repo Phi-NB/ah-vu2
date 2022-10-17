@@ -1,0 +1,46 @@
+.main {
+    height: unset;
+}
+
+.tbody tr:first-child {
+    text-transform: uppercase;
+}
+
+.tbody tr:first-child td {
+    border-right: 1px solid var(--primary-dark);
+    color: var(--secondary-dark);
+    font-weight: normal;
+}
+
+.tbody tr:first-child td div {
+    color: var(--secondary-dark);
+}
+
+.table .td {
+    width: 22%;
+    font-weight: 700;
+}
+.table .td:first-child {
+    width: 18%;
+    font-weight: normal;
+}
+
+.table tr {
+    width: 100%;
+}
+
+.table tr:nth-child(odd) {
+    background-color: var(--primary-default);
+}
+
+.table tr:nth-child(even) {
+    background-color: unset;
+}
+
+.table tr:hover {
+    background-color: var(--ascend-dark);
+}
+
+.table tr:first-child:hover {
+    background-color: var(--primary-default);
+}

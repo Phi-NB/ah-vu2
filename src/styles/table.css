@@ -1,0 +1,517 @@
+.table-container {
+  /* display: flex;
+      flex-direction: column; */
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0 !important;
+  background: none !important;
+  margin-bottom: 8px;
+}
+
+table {
+  font-family: Roboto, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  border-right: 1px solid var(--primary-dark);
+  padding: 8px;
+  text-transform: uppercase;
+  background-color: var(--primary-default);
+  color: var(--secondary-dark);
+  position: sticky;
+  top: -8px;
+}
+
+.tbl-custome-label {
+  text-transform: uppercase;
+  background-color: var(--primary-default);
+  color: var(--secondary-dark);
+}
+
+table td {
+  color: var(--secondary-default);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--primary-default);
+}
+
+table tr:hover {
+  background: var(--menu-background-hover);
+  color: var(--menu-text-hover);
+}
+
+table th,
+table td {
+  text-align: left;
+  font-weight: normal;
+  margin: 0;
+  white-space: nowrap;
+  padding: 0 8px;
+  font-size: 14px;
+  height: 32px;
+}
+
+.columns_toggle {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: rgb(175, 228, 122);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.mw-paragrap {
+  max-width: 100%;
+}
+
+.limit-length {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 640px) {
+  .mw-paragrap {
+    max-width: 100px;
+  }
+
+  .mw-paragrap-50 {
+    max-width: 50px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 949px) {
+  .mw-paragrap {
+    max-width: 150px;
+  }
+
+  .mw-paragrap-50 {
+    max-width: 50px;
+  }
+}
+
+/* Financial */
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root
+  .CellLayout-container
+  .MuiButtonBase-root {
+  display: none;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root
+  .CellLayout-container
+  .Content-content {
+  justify-content: left;
+  padding-left: 8px;
+  font-weight: 400;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root
+  .CellLayout-container
+  .Content-content
+  .Title-title {
+  color: var(--secondary-dark);
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root:first-child.css-1o6p3b3-MuiTableCell-root
+  .CellLayout-container
+  .Content-content {
+  justify-content: left;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root {
+  border: none;
+}
+
+.css-1a6fcoh-MuiTableCell-root,
+.css-1a6fcoh-MuiTableCell-root {
+  border: none;
+  box-sizing: border-box;
+  padding-left: 0 !important;
+}
+
+.css-xhtqz8-MuiTableCell-root {
+  border: none;
+  box-sizing: border-box;
+}
+
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.TableCell-cell.TableCell-cellNoWrap.css-xhtqz8-MuiTableCell-root {
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--secondary-default);
+  padding-right: 8px;
+}
+
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.TableCell-cell.TableCell-cellNoWrap.css-xhtqz8-MuiTableCell-root
+  svg {
+  color: var(--secondary-default);
+}
+
+.cell
+  .MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.TableCell-cell.TableCell-cellNoWrap.css-xhtqz8-MuiTableCell-root:first-child {
+  font-weight: 400;
+}
+
+.MuiTable-root .MuiTableBody-root .MuiTableRow-root:nth-child(even) {
+  background-color: var(--primary-default);
+  border: none;
+}
+
+.MuiTable-root .MuiTableBody-root .MuiTableRow-root:nth-child(odd) {
+  background-color: var(--primary-dark);
+  border: none;
+}
+
+.MuiTable-root .MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: var(--ascend-dark);
+}
+
+.css-1l21tkf-MuiButtonBase-root-MuiIconButton-root.TableTreeExpandButton-button {
+  padding: 0;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell td {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.TableTreeContent-content.css-qg6j3g {
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Wrapcontent table financial  */
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1ps6pg7-MuiPaper-root {
+  color: var(--primary-default);
+  border-radius: none;
+  box-shadow: none;
+  width: 100%;
+  background-color: transparent;
+  height: calc(100% - 24px);
+  overflow: auto;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root {
+  padding: 0;
+  border-right: 1px solid var(--primary-dark);
+  position: sticky;
+  z-index: 99999;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root:nth-child(2) {
+  width: 15%;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root:nth-child(3) {
+  width: 15%;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root:nth-child(4) {
+  width: 15%;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root:nth-child(5) {
+  width: 15%;
+}
+
+.MuiTable-root
+  .MuiTableHead-root
+  .MuiTableRow-root
+  .MuiTableCell-root.css-1o6p3b3-MuiTableCell-root:nth-child(6) {
+  width: 15%;
+}
+
+.css-1l21tkf-MuiButtonBase-root-MuiIconButton-root.TableTreeExpandButton-hidden {
+  margin-left: -24px;
+}
+
+/* Select */
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secondary-default);
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 120px;
+  padding: 4px 8px;
+  outline: none;
+  background: var(--primary-light);
+  border: 1px solid var(--border);
+  line-height: 22px;
+  height: 24px;
+  color: var(--secondary-default);
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon,
+.css-8je8zh-MuiTouchRipple-root {
+  color: var(--secondary-default);
+}
+
+.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none;
+  display: none;
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 0;
+  width: 120px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  top: 40px !important;
+  background: var(--primary-light);
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+  li {
+  font-size: 14px;
+  padding: 2px 8px;
+  color: var(--secondary-default);
+}
+
+.MuiTooltip-popper.MuiTooltip-popperInteractive {
+  width: fit-content;
+}
+
+.MuiTooltip-popper.MuiTooltip-popperInteractive .MuiTooltip-tooltip {
+  margin-left: 100px;
+  margin-top: 1px;
+  max-width: 100%;
+}
+
+.css-1r5ka99.TableContainer-root {
+  height: 100%;
+}
+
+.Layout-root.css-o7vo1z {
+  height: inherit;
+}
+
+/* Holder */
+.table-holder {
+  margin-bottom: 18px;
+}
+
+.table-holder table tr td {
+  font-weight: 700;
+  text-align: right;
+}
+.table-holder table tr td:first-child {
+  font-weight: 400;
+  text-align: left;
+}
+.top_holder table tr {
+  width: 100%;
+}
+
+.top_holder table tr td:nth-child(1) {
+  width: 32%;
+}
+.top_holder table tr th:nth-child(1) {
+  width: 32%;
+}
+
+.top_holder table tr td:nth-child(2) {
+  width: 16%;
+}
+.top_holder table tr th:nth-child(2) {
+  text-align: right;
+  width: 16%;
+}
+.top_holder table tr td:nth-child(3) {
+  width: 16%;
+}
+.top_holder table tr th:nth-child(3) {
+  text-align: right;
+  width: 16%;
+}
+.top_holder table tr td:nth-child(4) {
+  width: 16%;
+}
+.top_holder table tr th:nth-child(4) {
+  text-align: right;
+  width: 16%;
+}
+.top_holder table tr td:nth-child(5) {
+  width: 20%;
+}
+.top_holder table tr th:nth-child(5) {
+  text-align: right;
+  width: 20%;
+}
+
+.insider_roster table tr {
+  width: 100%;
+}
+
+.insider_roster table tr td:nth-child(1) {
+  width: 24%;
+  padding: 2px 8px;
+}
+.insider_roster table tr th:nth-child(1) {
+  width: 24%;
+}
+
+.insider_roster table tr td:nth-child(2) {
+  width: 26%;
+  font-weight: 400;
+}
+.insider_roster table tr th:nth-child(2) {
+  width: 26%;
+  text-align: right;
+}
+.insider_roster table tr td:nth-child(3) {
+  text-align: right;
+  width: 12%;
+}
+.insider_roster table tr th:nth-child(3) {
+  text-align: right;
+  width: 12%;
+}
+.insider_roster table tr td:nth-child(4) {
+  text-align: right;
+  width: 38%;
+}
+.insider_roster table tr th:nth-child(4) {
+  text-align: right;
+  width: 38%;
+}
+
+.insider_transaction table tr {
+  width: 100%;
+}
+
+.insider_transaction table tr td:nth-child(1) {
+  width: 34%;
+  padding: 2px 8px;
+}
+.insider_transaction table tr th:nth-child(1) {
+  width: 34%;
+}
+
+.insider_transaction table tr td:nth-child(2) {
+  width: 30%;
+  font-weight: 400;
+}
+.insider_transaction table tr th:nth-child(2) {
+  text-align: right;
+  width: 30%;
+}
+.insider_transaction table tr td:nth-child(3) {
+  width: 8%;
+  font-weight: 400;
+}
+.insider_transaction table tr th:nth-child(3) {
+  text-align: right;
+  width: 8%;
+}
+.insider_transaction table tr td:nth-child(4) {
+  width: 8%;
+}
+.insider_transaction table tr th:nth-child(4) {
+  text-align: right;
+  width: 8%;
+}
+.insider_transaction table tr td:nth-child(5) {
+  width: 12%;
+}
+.insider_transaction table tr th:nth-child(5) {
+  text-align: right;
+  width: 12%;
+}
+.insider_transaction table tr td:nth-child(6) {
+  width: 8%;
+}
+.insider_transaction table tr th:nth-child(6) {
+  text-align: right;
+  width: 8%;
+}
+
+.table-description table tr th:nth-child(1) {
+  width: 32%;
+}
+.table-description table tr td:nth-child(1) {
+  width: 32%;
+}
+
+.table-description table tr th:nth-child(2) {
+  text-align: right;
+  width: 16%;
+}
+.table-description table tr td:nth-child(2) {
+  text-align: right;
+  width: 16%;
+}
+
+.insider_tow_table_first table tr th:nth-child(2) {
+  text-align: right;
+}
+.insider_tow_table_first table tr th:nth-child(3) {
+  text-align: right;
+}
+.insider_tow_table_first table tr th:nth-child(4) {
+  text-align: right;
+}
+
+.cell-tow-row {
+  display: flex;
+}

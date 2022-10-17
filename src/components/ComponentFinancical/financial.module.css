@@ -1,0 +1,136 @@
+.financicalInfoWrapContent {
+  height: calc(100% - 50px);
+}
+
+
+.financicalGroupBtnButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 12px;
+  gap: 8px;
+  background: var(--primary-light);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #C5CBCE;
+  transition: all 0.3s;
+}
+
+.financicalGroupBtnButtonActive {
+  background-color: var(--ascend-default);
+  color: #C5CBCE;
+}
+
+.financicalGroupBtnButton:hover {
+  background-color: var(--ascend-default);
+}
+
+.financicalTool{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  height: 24px;
+}
+
+.financicalGroupBtn {
+  display: flex;
+}
+
+.financicalSelect {
+  width: 120px;
+  padding: 4px 8px;
+  outline: none;
+  background: var(--primary-light);
+  border: 1px solid var(--border);
+}
+
+.financicalSelectOption {
+  padding: 8px 66px;
+}
+
+.financicalInfoTable {
+  display: flex;
+  font-family: 'Roboto';
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.financicalInfoFinancial {
+  margin-left: 16px;
+  font-size: 12px;
+  color: var(--secondary-dark);
+}
+
+.financicalInfoFinancial span {
+  font-size: 12px;
+  color: var(--secondary-dark);
+
+}
+
+.financicalInfo {
+  display: flex;
+  align-items: center;
+}
+
+.financicalInfoIncome {
+  font-size: 16px;
+  color: var(--secondary-dark);
+}
+
+.financicalInfoTableBtnEpCo {
+  border: none;
+  background: var(--primary-dark);
+  color: var(--secondary-default);
+  cursor: pointer;
+}
+
+.noDataContainer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  padding: 46px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.financicalInfoFinancial table {
+  width: 100%;
+}
+
+.financicalInfoFinancial table, .financicalInfoFinancial td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.financicalInfoFinancial table thead {
+  display: table; /* to take the same width as tr */
+  width: calc(100% - 17px); /* - 17px because of the scrollbar width */
+}
+
+.financicalInfoFinancial tbody {
+  display: block; /* to enable vertical scrolling */
+  max-height: 200px; /* e.g. */
+  overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+}
+
+.financicalInfoFinancial th, .financicalInfoFinancial td {
+  width: 33.33%; /* to enable "word-break: break-all" */
+  padding: 5px;
+  word-break: break-all; /* 4. */
+}
+
+.financicalInfoFinancial tr {
+  display: table; /* display purpose; th's border */
+  width: 100%;
+  box-sizing: border-box; /* because of the border (Chrome needs this line, but not FF) */
+}
+
+.financicalInfoFinancial td {
+  text-align: center;
+  border-bottom: none;
+  border-left: none;
+}
